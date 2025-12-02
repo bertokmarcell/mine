@@ -1,0 +1,46 @@
+@font-face {
+  font-family: "MyFont";
+  src: url("fontok/MinecraftRegular-Bmg3.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+body{
+    background-image: url(kepek/overworld/dirt.png);
+}
+main {
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 2fr 4fr 3fr;
+  grid-template-areas:
+    "h h h"
+    "as n n"
+    "as ar ar"
+    "as f f";
+  gap: 5px;
+}
+
+header { grid-area: h; 
+text-align: center;
+}
+aside  { grid-area: as;
+      background-image: url(kepek/bright_stone.png);
+}
+nav    { grid-area: n; 
+    background-color: rgb(29, 94, 40);
+  height: 100px;
+
+}
+article { grid-area: ar;
+    background-image: url(kepek/bright_stone.png);
+  align-items: center;
+  
+
+}
+footer { grid-area: f; 
+
+}
+.nother{
+    display: grid;
+  grid-template-columns: 1fr 1fr;
+}

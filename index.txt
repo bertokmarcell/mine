@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Overworld</title>
+    <link rel="stylesheet" href="stilus.css">
+</head>
+<body id="overworld_body">
+    <main>
+        <header>
+            <div id="minecraft_logo">
+                <a href="https://www.minecraft.net/en-us"><img src="kepek/logo.png" alt="wiki"></a>
+            </div>
+        </header>
+        <nav id="overworld_nav">
+            <ul>
+                <li><a class="active" href="index.html">Overworld</a></li>
+                <li><a href="nether.html">Nether</a></li>
+                <li><a href="theend.html">The End</a></li>
+                <li style="float:right"><a href="https://minecraft.wiki/">More</a></li>
+            </ul>
+        </nav>
+        <article>
+            <div class="text">
+                <h1>Overworld</h1>
+                <p>
+                    The Overworld is the dimension in which all players begin their Minecraft world. It is the dimension with the most biomes, blocks, and mobs, and is where most players spend the majority of their time.
+                </p>
+                <h2>Creation</h2>
+                <p>
+                    The Overworld is the only dimension created when the player creates a new world. The other dimensions (The Nether and The End) aren't created until a player enters the corresponding dimension for the first time. 
+                </p>
+                <h2>Daylight cycle</h2>
+                <div id="daylight_cycle_gif">
+                    <img src="kepek/overworld/day_night.gif" alt="day night gif">
+                </div>
+                <p>
+                    The Overworld is the only dimension with a daylight cycle and the only one where the environment reflects the passage of time. In contrast to time zones in the real world, Overworld time is universal; it is always the same time for every player in the dimension regardless of how far apart they might be, even in an "infinite" world.
+
+                    During the daytime, the sun acts as a powerful light source, with a light level of 15, the maximum. Sunlight is strong enough to grow plants and affect the way mobs spawn, among other interesting effects. During the nighttime, the moon is the only natural light source. However, moonlight is comparatively dim; the light level falls to a minimum of 4, allowing hostile mobs to spawn. Other than during thunderstorms, nighttime is the only time players may sleep in a bed.
+
+                    The daylight cycle can effectively be measured using a clock, which allows players to determine the approximate Minecraft time anywhere in the Overworld. Time can also be changed or stopped with the use of the /time command.
+
+                    The sun rises in the east and sets in the west, just as it does in the real world. Observing its motion is a simple method of telling direction without a compass. 
+                </p>
+            </div>
+            <div class="text">
+                <h1>Naturally created Blocks</h1>
+                <p>
+                    Naturally created means a combination of events that cause a new block to be placed by natural causes, not the player. Some of these blocks may also be created as part of world generation. 
+                </p>
+                <div id="overworld_grid">
+                    <div class="overworld_grid_item">
+                        <img src="kepek/overworld/grid/air.png" alt="an image of the block">
+                        <p>Air</p>
+                    </div>
+                    <div class="overworld_grid_item">
+                        <img src="kepek/overworld/grid/small-amethyst-bud.png" alt="an image of the block">
+                        <p>Small Amethyst Bud</p>
+                    </div>
+                    <div class="overworld_grid_item">
+                        <img src="kepek/overworld/grid/medium-amethyst-bud.png" alt="an image of the block">
+                        <p>Medium Amethyst Bud</p>
+                    </div>
+                    <div class="overworld_grid_item">
+                        <img src="kepek/overworld/grid/large-amethyst-bud.png" alt="an image of the block">
+                        <p>Large Amethyst Bud</p>
+                    </div>
+                    <div class="overworld_grid_item">
+                        <img src="kepek/overworld/grid/amethyst-cluster.png" alt="an image of the block">
+                        <p>Amethyst Cluster</p>
+                    </div> 
+                    <div class="overworld_grid_item">
+                        <img src="kepek/overworld/grid/grass-block.png" alt="an image of the block">
+                        <p>Grass Block</p>
+                    </div> 
+                    <div class="overworld_grid_item">
+                        <img src="kepek/overworld/grid/dirt.png" alt="an image of the block">
+                        <p>Dirt</p>
+                    </div> 
+                    <div class="overworld_grid_item">
+                        <img src="kepek/overworld/grid/mycelium.png" alt="an image of the block">
+                        <p>Mycelium</p>
+                    </div> 
+                    <div class="overworld_grid_item">
+                        <img src="kepek/overworld/grid/stationary-water.png" alt="an image of the block">
+                        <p>Water</p>
+                    </div> 
+                    <div class="overworld_grid_item">
+                        <img src="kepek/overworld/grid/red-mushroom.png" alt="an image of the block">
+                        <p>Red Mushroom</p>
+                    </div> 
+                    <div class="overworld_grid_item">
+                        <img src="kepek/overworld/grid/brown-mushroom.png" alt="an image of the block">
+                        <p>Brown Mushroom</p>
+                    </div> 
+                    <div class="overworld_grid_item">
+                        <img src="kepek/overworld/grid/kelp.png" alt="an image of the block">
+                        <p>Kelp</p>
+                    </div> 
+                    <div class="overworld_grid_item">
+                        <img src="kepek/overworld/grid/kelp-plant.png" alt="an image of the block">
+                        <p>Kelp Plant</p>
+                    </div>
+                    <div class="overworld_grid_item">
+                        <img src="kepek/overworld/grid/cave-vines.png" alt="an image of the block">
+                        <p>Cave Vines</p>
+                    </div> 
+                    <div class="overworld_grid_item">
+                        <img src="kepek/overworld/grid/cave-vines-plant.png" alt="an image of the block">
+                        <p>Cave Vines Plant</p>
+                    </div> 
+                    <div class="overworld_grid_item">
+                        <img src="kepek/overworld/grid/pointed-dripstone.png" alt="an image of the block">
+                        <p>Pointed Dripstone</p>
+                    </div> 
+                    <div class="overworld_grid_item">
+                        <img src="kepek/overworld/grid/cobblestone.png" alt="an image of the block">
+                        <p>Cobblestone</p>
+                    </div> 
+                    <div class="overworld_grid_item">
+                        <img src="kepek/overworld/grid/stone.png" alt="an image of the block">
+                        <p>Stone</p>
+                    </div> 
+                    <div class="overworld_grid_item">
+                        <img src="kepek/overworld/grid/obsidian.png" alt="an image of the block">
+                        <p>Obsidian</p>
+                    </div> 
+                    <div class="overworld_grid_item">
+                        <img src="kepek/overworld/grid/fire.png" alt="an image of the block">
+                        <p>Fire</p>
+                    </div>
+                    <div class="overworld_grid_item">
+                        <img src="kepek/overworld/grid/snow.png" alt="an image of the block">
+                        <p>Snow</p>
+                    </div>
+                    <div class="overworld_grid_item">
+                        <img src="kepek/overworld/grid/ice.png" alt="an image of the block">
+                        <p>Ice</p>
+                    </div>
+                    <div class="overworld_grid_item">
+                        <img src="kepek/overworld/grid/cactus.png" alt="an image of the block">
+                        <p>Cactus</p>
+                    </div>
+                    <div class="overworld_grid_item">
+                        <img src="kepek/overworld/grid/sugar-cane.png" alt="an image of the block">
+                        <p>Sugar Cane</p>
+                    </div>
+                    <div class="overworld_grid_item">
+                        <img src="kepek/overworld/grid/vines.png" alt="an image of the block">
+                        <p>Vines</p>
+                    </div>  
+                </div>
+            </div>
+            <div class="text">
+                <h1>Seeds</h1>
+                <p>
+                    A new world in Minecraft is generated through the use of a randomly generated seed, which is an integer used as a starting point for the world generation formula. The player can specify a seed or allow the game to generate one randomly. If given a non-integer input (such as the word "Glacier"), the game converts it into a corresponding integer (such as 1772835215).
+
+                    A given seed generates almost exactly the same world every time, provided the same edition, game version, and world type are used. Although the exact spawn point varies, the coordinates of all terrain features are the same. All seeds within the 32-bit integer limit in Java and Bedrock editions may also generate worlds with the same terrain shape and biome map, but the placement of terrain features, structures, and carver caves may differ. 
+                </p>
+            </div>
+        </article>
+        <aside>
+            <h1>Other links</h1>
+            <ul>
+                <li><a href="https://minecraft.wiki/w/Dimension">Dimension</a></li>
+                <li><a href="https://minecraft.wiki/w/The_Moon">The Moon</a></li>
+                <li><a href="https://minecraft.wiki/w/Potato_(dimension)">Potato Dimension</a></li>
+                <li><a href="https://minecraft.wiki/w/Sky_dimension">Sky dimension</a></li>
+                <li><a href="https://minecraft.wiki/w/Java_Edition_20w14%E2%88%9E">20w14∞</a></li>
+                <li><a href="https://minecraft.wiki/w/Portal">Portal</a></li>
+                <li><a href="https://minecraft.wiki/w/Weather">Weather</a></li>
+                <li><a href="https://minecraft.wiki/w/Daylight_cycle">Daylight cycle</a></li>
+                <li><a href="https://minecraft.wiki/w/Bed">Bed</a></li>
+                <li><a href="https://minecraft.wiki/w/Respawn_Anchor">Respawn Anchor</a></li>
+            </ul>
+        </aside>
+        <footer>
+            <p>Made by: Nao, Timudzsin</p>
+        </footer>
+    </main>
+</body>
+</html>
